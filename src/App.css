@@ -24,3 +24,10 @@ button:hover {
   height: 40vmin;
   pointer-events: none;
 }
+
+@media screen and (max-width: 600px) {
+  .App {
+    text-align: center;
+    font-size: 30px;
+  }
+}
